@@ -1,0 +1,23 @@
+.Post {
+  border: 1px solid gray;
+  padding: 5px;
+  max-width: 800px;
+  height: 60px;
+}
+
+.Post:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.Post-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.Post-body {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+}

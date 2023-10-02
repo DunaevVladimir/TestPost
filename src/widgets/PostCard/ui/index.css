@@ -1,0 +1,13 @@
+.PostCard {
+  padding: 5px;
+}
+
+.PostCard-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.PostCard-body {
+  margin-bottom: 10px;
+}
